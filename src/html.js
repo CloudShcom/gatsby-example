@@ -1,5 +1,5 @@
-import React from "react"
-import PropTypes from "prop-types"
+import React from "react";
+import PropTypes from "prop-types";
 
 export default function HTML(props) {
   return (
@@ -27,7 +27,7 @@ export default function HTML(props) {
         <script src="https://app.cloudsh.com/js/search.js" />
       </body>
     </html>
-  )
+  );
 }
 
 HTML.propTypes = {
@@ -36,5 +36,5 @@ HTML.propTypes = {
   bodyAttributes: PropTypes.object,
   preBodyComponents: PropTypes.array,
   body: PropTypes.string,
-  postBodyComponents: PropTypes.array,
-}
+  postBodyComponents: PropTypes.array
+};
